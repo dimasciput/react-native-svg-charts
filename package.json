@@ -7,6 +7,7 @@
     "module": "lib/module/index.js",
     "react-native": "src/index.js",
     "scripts": {
+        "prepare": "npm run build",
         "start": "node node_modules/react-native/local-cli/cli.js start",
         "test": "jest",
         "storybook": "storybook start -p 7008",
